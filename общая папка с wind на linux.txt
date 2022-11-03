@@ -1,0 +1,14 @@
+
+Сетевой доступ: разрешать применение разрешений "Для всех" к анонимным пользователям
+
+вкл
+HKLM\SYSTEM\CurrentControlSet\Control\Lsa\everyoneincludesanonymous: 0x00000001
+выкл
+HKLM\SYSTEM\CurrentControlSet\Control\Lsa\everyoneincludesanonymous: 0x00000000
+
+Сетевой доступ: разрешать анонимный доступ к общим ресурсам
+//нужно указать ресурс
+HKLM\SYSTEM\ControlSet001\Services\LanmanServer\Parameters\NullSessionShares:(если папок несколько, то уазываем их через enter )
+
+
+AMS1117-3.3 D
